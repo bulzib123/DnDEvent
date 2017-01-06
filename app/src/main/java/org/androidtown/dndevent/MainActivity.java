@@ -9,7 +9,7 @@ import android.widget.ViewFlipper;
 
 public class MainActivity extends AppCompatActivity {
 
-    //깃헙s
+    //깃헙sㄴ
     ViewFlipper flipper;
 
     //자동 Flipping 선택 ToggleButton 참조변수
