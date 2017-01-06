@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3f41"
+    android:weightSum="1">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="219dp">
+
+        <ImageView
+            android:id="@+id/img01"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:src="@drawable/party"/>
+
+        <ImageView
+            android:id="@+id/img02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/party2"/>
+
+        <ImageView
+            android:id="@+id/img03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/party3"/>
+
+    </ViewFlipper>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="3dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/octagon"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Roof Top Pool Party"
+                android:id="@+id/textView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016.10.28"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:text="Special DJ"
+                android:id="@+id/textView2"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:text="Kygo, Disclosure, Shift Key"
+                android:id="@+id/textView5" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:padding="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:text="Local DJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Kygo, Disclosure, Shift Key"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:ems="10"
+            android:id="@+id/editText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:padding="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:text="Club Banyantree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+    </LinearLayout>
+
+</LinearLayout>
